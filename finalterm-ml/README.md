@@ -336,12 +336,12 @@ This project is for **educational purposes** as part of a Machine Learning cours
 
 ## 👨‍💻 Author
 
-**[Your Name]**  
+**Hamdan Syaifuddin Zuhri**  
 Computer Engineering Student  
-[Your University]
+Telkom University
 
 **Course**: Machine Learning  
-**Semester**: [Semester/Year]  
+**Semester**: 7/2025  
 **Assignment**: Final Exam - Regression Project
 
 ---
@@ -357,9 +357,8 @@ Computer Engineering Student
 ## 📧 Contact
 
 For questions or collaboration:
-- **Email**: [your.email@example.com]
-- **LinkedIn**: [Your LinkedIn]
-- **GitHub**: [Your GitHub Profile]
+- **Email**: hamdansyaif@gmail.com
+- **LinkedIn**: hamdansyaif
 
 ---
 
