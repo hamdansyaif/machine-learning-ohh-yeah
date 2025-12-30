@@ -1,0 +1,31 @@
+# Large data files (don't upload to GitHub)
+X_train_smote.pkl
+X_val_scaled.pkl
+y_train_smote.pkl
+y_val.pkl
+transaction/
+*.csv
+
+# System files
+desktop.ini
+.DS_Store
+Thumbs.db
+
+# Training logs
+catboost_info/
+
+# Temporary files
+output/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+venv/
+.conda/
+.env
+
+# Large data (over 100 MB)
+*.pkl.gz
+*.h5
+*.hdf5
