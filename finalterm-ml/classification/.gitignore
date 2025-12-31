@@ -1,0 +1,57 @@
+# Navigate to project root
+cd ~/OneDrive/Documents/SEMESTER\ 7/MACHINE\ LEARNING/classification
+
+# Create .gitignore
+touch .gitignore
+```
+
+**Contents of `.gitignore`:**
+```
+# Large model files (use Git LFS or external hosting)
+*.keras
+*.h5
+*.pb
+*.ckpt
+
+# Dataset directories (too large, provide download link instead)
+train/
+val/
+test/
+data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+fish_env/
+fish_classification/
+fraud_gpu/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+*.temp
