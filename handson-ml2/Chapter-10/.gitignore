@@ -1,0 +1,42 @@
+# Create .gitignore file
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Large model files
+*.keras
+*.h5
+*.pb
+*.ckpt
+
+# Logs & TensorBoard
+logs/
+*/logs/*
+
+# Keras Tuner
+tuner_results/
+*/tuner_results/*
+
+# Data files
+*.csv
+*.xlsx
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
+
+# Add gitignore
+git add .gitignore
